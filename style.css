@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #ff4b5c;
+    padding: 10px 0;
+    color: white;
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn, .btn2 {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #007BFF;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.my-1 {
+    margin: 10px 0;
+}
+
+.my-2 {
+    margin: 20px 0;
+}
+
+.px-2 {
+    padding: 0 20px;
+}
+
+.pricing .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing .box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #f9f9f9;
+}
+
+.highlighted {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.plantable .table {
+    width: 100%;
+    border-collapse: collapse;
